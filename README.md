@@ -1,18 +1,18 @@
-# Postman Ecom Api Testing
+## 🛒 Postman Ecom Api Testing
 
-This is a project I made to practice API testing using Postman. I used a free fake ecommerce API called DummyJSON to test different endpoints like login, user profile, and products.
-
----
-
-## About the Project
-
-I followed a tutorial and built this step by step. The main thing I learned here is how to automatically extract a JWT token after login and use it in the next requests — without manually copying and pasting it every time.
+A hands-on API testing project where I tested a dummy ecommerce REST API using Postman. The project covers everything from logging in and grabbing a JWT token automatically, to fetching user profiles and product data — with test scripts validating each response.
 
 ---
+## Why I Built This
 
-## Base URL
+I wanted to practice real-world API testing workflows not just sending requests, but also writing scripts that extract tokens, chain requests together, and assert response values automatically. This project helped me understand how QA engineers test APIs end to end.
 
-https://dummyjson.com
+---
+## 🔗 API Used
+
+DummyJSON — a free fake ecommerce REST API, perfect for testing.
+Base URL: https://dummyjson.com
+
 ---
 
 ## Requests I Tested
@@ -35,7 +35,7 @@ Fetches one product using the ID saved from the previous request.
 
 All 4 requests passed with status 200.
 
-![Collection Runner](screenshots05_collection_runner.jpg)
+![Collection Runner](screenshot05_collection_runner.jpg)
 
 | Request | Status | Test |
 |---|---|---|
@@ -72,21 +72,26 @@ Total: 4 passed, 0 failed, 0 errors
 
 ## Tools Used
 
-- Postman
-- DummyJSON API
-- JavaScript (for scripts)
-- GitHub
+Postman — API testing and automation
+DummyJSON — Fake ecommerce REST API
+JavaScript — Pre/Post request scripts
+GitHub — Version control
 
 ---
 
 ## What I Learned
 
-- How to use environment variables in Postman
-- How to write post-response scripts to extract and save tokens
-- How to chain requests so they pass data to each other
-- How to write basic test assertions using pm.test()
-- How to use Collection Runner to run all requests at once
+✅ Environment variables for reusable config
+✅ JWT token auto-extraction via post-response scripts
+✅ Bearer Token authorization
+✅ Request chaining (Login → Profile → Products → Single Product)
+✅ Automated assertions using pm.test() on all 4 requests
+✅ Collection Runner for end-to-end execution
 
 ---
+execution
 
-Made by Purva Rawale  
+
+👩‍💻 Author
+Purva Rawale
+ 
