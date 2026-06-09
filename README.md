@@ -1,6 +1,6 @@
 ## 🛒 Postman Ecom Api Testing
 
-A hands-on API testing project where I tested a dummy ecommerce REST API using Postman. The project covers everything from logging in and grabbing a JWT token automatically, to fetching user profiles and product data — with test scripts validating each response.
+A hands-on API testing project where I tested a dummy ecommerce REST API using Postman. The project covers everything from logging in and grabbing a JWT token automatically, to fetching user profiles and product data with test scripts validating each response.
 
 ---
 ## Why I Built This
@@ -11,6 +11,7 @@ I wanted to practice real-world API testing workflows not just sending requests,
 ## 🔗 API Used
 
 DummyJSON — a free fake ecommerce REST API, perfect for testing.
+
 Base URL: https://dummyjson.com
 
 ---
@@ -85,10 +86,15 @@ GitHub — Version control
 ## What I Learned
 
 ✅ Environment variables for reusable config
+
 ✅ JWT token auto-extraction via post-response scripts
+
 ✅ Bearer Token authorization
+
 ✅ Request chaining (Login → Profile → Products → Single Product)
+
 ✅ Automated assertions using pm.test() on all 4 requests
+
 ✅ Collection Runner for end-to-end execution
 
 ---
