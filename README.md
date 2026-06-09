@@ -73,8 +73,11 @@ Total: 4 passed, 0 failed, 0 errors
 ## Tools Used
 
 Postman — API testing and automation
+
 DummyJSON — Fake ecommerce REST API
+
 JavaScript — Pre/Post request scripts
+
 GitHub — Version control
 
 ---
@@ -89,9 +92,6 @@ GitHub — Version control
 ✅ Collection Runner for end-to-end execution
 
 ---
-execution
-
-
 👩‍💻 Author
 Purva Rawale
  
